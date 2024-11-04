@@ -1,0 +1,34 @@
+/* work on monu bar */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+nav > ul{
+    display: flex;
+    align-items: center;
+    
+}
+.nav-logo{
+    color: #181818;
+    font-size: 45px;
+}
+.logo{
+    color: #FD6E0A;
+    
+}
+nav li{
+    list-style: none;
+    margin-right: 50px;
+}
+nav a{
+    text-decoration: none;
+    color: #474747;
+}
+nav button{
+    color: aliceblue;
+    background-color: #FD6E0A;
+    border-radius: 2px;
+    padding: 12px 20px;
+    border: 0;
+}
