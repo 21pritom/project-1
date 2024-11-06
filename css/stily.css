@@ -1,34 +1,109 @@
-/* work on monu bar */
+/* comon shard style */
+body{
+    .lato-thin {
+        font-family: "Lato", sans-serif;
+        font-weight: 100;
+        font-style: normal;
+        background-color: rgb(190, 190, 190);
+      }
 
-nav {
+}
+/* nav relative style */
+nav{
     display: flex;
-    justify-content: space-between;
+    margin: 0 200px;
+}
+.logo{
+    color: #181818;
+    font-size: 45px;
+    font-weight: 800;
+}
+.text-primary{
+    color: #FD6E0A;
 }
 nav > ul{
     display: flex;
     align-items: center;
-    
+  
 }
-.nav-logo{
-    color: #181818;
-    font-size: 45px;
+nav > ul > li{
+   list-style: none;
+   margin-right: 50px;
+   align-items: center;
 }
-.logo{
-    color: #FD6E0A;
-    
-}
-nav li{
-    list-style: none;
-    margin-right: 50px;
-}
-nav a{
+nav > ul > li >a{
     text-decoration: none;
-    color: #474747;
+    color: #181818;
+ }
+ button > a{
+    text-decoration: none;
+    color: #ffffff;
+ }
+nav{
+    align-items: center;
+    justify-content: space-between;
 }
-nav button{
-    color: aliceblue;
+/* buttorn work */
+.button-primary{
+    font-size: 29px;
+    font-style: normal;
+    border-radius: 5px;
     background-color: #FD6E0A;
-    border-radius: 2px;
-    padding: 12px 20px;
     border: 0;
+    padding: 15px 35px;
+}
+/* heder moveing */
+.header{
+    margin:0 200px;
+    background-image: url(../images/header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    background-size: 750px;
+}
+.button-acgi{ 
+    background-color: #ffffff;
+    font-size: 29px;
+    font-style: normal;
+    border-radius: 5px;
+    border: 10;
+    border-color: #FD6E0A;
+    padding: 15px 35px;
+}.button-acgi a{ 
+    background-color: #ffffff;
+    color: #FD6E0A;
+} 
+.banner{
+    display: flex;
+    padding: 30px 30px 0px 150px;
+}
+.banner .profile-pic{
+    width: 500px;
+}
+.banner-greeting{
+    font-size: 45px;
+    margin-bottom: 0;
+}
+.banner-heading{
+    margin-top: 0;
+    font-size: 85px;
+    margin-bottom: 20px;
+}
+.banner-discription{
+    font-size: 18px;
+    width: 550px;
+    color: rgb(170, 170, 170);
+}
+.profile-pic{
+    margin-left: 7pc;
+}
+/* main part */
+/* main section */
+/* about secton */
+.about{
+    padding: 130px;
+}
+.section-tittle{
+    font-size: 35px;
+    font-weight: 700;
+    text-align: center;
 }
