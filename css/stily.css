@@ -94,16 +94,66 @@ nav{
     color: rgb(170, 170, 170);
 }
 .profile-pic{
-    margin-left: 7pc;
+    margin-left: 20px;
 }
 /* main part */
 /* main section */
 /* about secton */
 .about{
-    padding: 130px;
+    margin: 200px;
+    background-color: #FFFFFF;
+    padding: 0 350px;
+    margin-bottom: 100px;
 }
 .section-tittle{
     font-size: 35px;
     font-weight: 700;
     text-align: center;
+}
+.about-info-contanar{
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-around;
+}
+/* spacel  socail*/
+#what{
+    padding: 0 550px;
+    gap: 20px;
+}
+.skill-part{
+    display: flex;
+    padding: 200 200px;
+    margin: 0 300px;
+    gap: 6px;
+   
+}
+.skill{
+    box-shadow: 0px 6px 30px 0 rgb(0, 0, 0,0.2);
+    background-color:#f5f5f5 ;
+    padding: 12px;
+}
+.super-skill{
+    margin-top: 0px;
+}
+/* resume section style */
+.resume-part{
+    color: 474747;
+    font-size: 30px;
+    font-weight: 700;
+}
+.resume-contanar{
+    display: flex;
+    gap: 50px;
+}
+.resume-item-discription{
+    font-size: 12px;
+}
+.resume-item-tittle{
+    font-size: 30px;
+
+}
+.Download-cv{
+    text-align: center;
+    margin-top: 50px;
 }
